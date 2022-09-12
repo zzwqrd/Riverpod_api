@@ -1,16 +1,50 @@
-# riverpod
+# Flutter Riverpod Api
 
-A new Flutter project.
+MVVM stands for **Model-View-ViewModel**. The basic idea is to create a view model that’ll provide data to the view. The view can use the data provided by the view model to populate itself. Creating a view-model layer allows us to write modular code, which can be used by several views.
 
-## Getting Started
+<table align="center" style="margin: 0px auto;">
+  <tr>
 
-This project is a starting point for a Flutter application.
+[comment]: <> (    <td><img align="center" src="screenshots/mvvm.png"></img></td>)
+  </tr>
+</table>
 
-A few resources to get you started if this is your first Flutter project:
+## File Pattern Inside The `lib` Folder
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img align="left" src="screenshots/folder_structure.png"></img>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+    lib/
+    ├── model/
+    │   └── post.dart
+    ├── repository/
+    │   └── api_repository.dart
+    ├── services/
+    │   ├── api_service.dart
+    │   ├── app_exception.dart
+    │   └── base_service.dart
+    ├── utils/
+    │   ├── api_constants.dart
+    │   └── size_config.dart
+    ├── view/
+    │   ├── widgets/
+    │   │   └── post_item.dart
+    │   ├── post_details_screen.dart
+    │   └── post_list_screen.dart
+    ├── view_model/
+    │   ├── post_details_view_model.dart
+    │   └── post_list_view_model.dart
+    └── main.dart
+```
+
+## App Demo
+
+<table align="center" style="margin: 0px auto;">
+  <tr>
+    <th>On an iPhone 8 Simulator</th>
+  </tr>
+  <tr>
+
+[comment]: <> (    <td align="center"><img align="right" src="screenshots/gif/app_demo.gif"></img></td>)
+  </tr>
+</table>
