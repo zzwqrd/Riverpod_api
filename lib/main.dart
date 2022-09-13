@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:flutter/services.dart';
 import 'package:riverpod/routes/app_pages.dart';
 import 'package:riverpod/routes/app_routes.dart';
-import 'package:riverpod/screens/home/view.dart';
 import 'package:riverpod/view_model_binding/view_model_binding.dart';
 
 void main() async{

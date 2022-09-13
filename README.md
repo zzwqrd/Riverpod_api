@@ -1,4 +1,4 @@
-# Flutter Riverpod Api
+# Flutter GETX Api
 
 
 <table align="center" style="margin: 0px auto;">

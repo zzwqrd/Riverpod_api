@@ -1,7 +1,4 @@
-
-
 import 'dart:developer';
-
 import 'package:get/get.dart';
 import 'package:riverpod/screens/home/controller/controller.dart';
 import 'package:riverpod/screens/home/controller/model.dart';
