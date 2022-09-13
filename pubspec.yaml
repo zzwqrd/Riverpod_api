@@ -16,15 +16,24 @@ dependencies:
 
 
   cupertino_icons: ^1.0.2
-  flutter_riverpod:
   dio: ^4.0.6
   pretty_dio_logger: ^1.1.1
   http_parser: ^4.0.1
   image_picker: ^0.8.5+3
+  get: ^4.6.5
+#  flutter_riverpod:
+#  hooks_riverpod:
+#  flutter_hooks:
+#  hooks_riverpod:
+#  provider: ^6.0.3
 
 dev_dependencies:
+
+
   flutter_test:
     sdk: flutter
+
+
 
 
   flutter_lints: ^2.0.0
