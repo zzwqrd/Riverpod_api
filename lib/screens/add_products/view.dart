@@ -41,8 +41,6 @@ class _AddProductsState extends State<AddProducts> {
     descriptionController = TextEditingController();
     priceController = TextEditingController();
     discountController = TextEditingController();
-    // _addProductListViewModel = Provider.of<AddProductListViewModel>(context, listen: false);
-    // _addProductListViewModel.getData();
     super.initState();
   }
   @override
